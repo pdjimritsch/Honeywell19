@@ -1,0 +1,175 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Dev\\Remote\\Honeywell\\Honeywell19\\MediaPlayer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9468F188-F53A-4E85-BDBF-8041DD1883BE}|MediaPlayer\\MediaPlayer.csproj|c:\\dev\\remote\\honeywell\\honeywell19\\mediaplayer\\mediaplayer\\controllers\\recentmoviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9468F188-F53A-4E85-BDBF-8041DD1883BE}|MediaPlayer\\MediaPlayer.csproj|solutionrelative:mediaplayer\\controllers\\recentmoviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9468F188-F53A-4E85-BDBF-8041DD1883BE}|MediaPlayer\\MediaPlayer.csproj|c:\\dev\\remote\\honeywell\\honeywell19\\mediaplayer\\mediaplayer\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9468F188-F53A-4E85-BDBF-8041DD1883BE}|MediaPlayer\\MediaPlayer.csproj|solutionrelative:mediaplayer\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9468F188-F53A-4E85-BDBF-8041DD1883BE}|MediaPlayer\\MediaPlayer.csproj|c:\\dev\\remote\\honeywell\\honeywell19\\mediaplayer\\mediaplayer\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9468F188-F53A-4E85-BDBF-8041DD1883BE}|MediaPlayer\\MediaPlayer.csproj|solutionrelative:mediaplayer\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9468F188-F53A-4E85-BDBF-8041DD1883BE}|MediaPlayer\\MediaPlayer.csproj|c:\\dev\\remote\\honeywell\\honeywell19\\mediaplayer\\mediaplayer\\controllers\\cataloguecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9468F188-F53A-4E85-BDBF-8041DD1883BE}|MediaPlayer\\MediaPlayer.csproj|solutionrelative:mediaplayer\\controllers\\cataloguecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9468F188-F53A-4E85-BDBF-8041DD1883BE}|MediaPlayer\\MediaPlayer.csproj|c:\\dev\\remote\\honeywell\\honeywell19\\mediaplayer\\mediaplayer\\views\\recentmovie\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9468F188-F53A-4E85-BDBF-8041DD1883BE}|MediaPlayer\\MediaPlayer.csproj|solutionrelative:mediaplayer\\views\\recentmovie\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9468F188-F53A-4E85-BDBF-8041DD1883BE}|MediaPlayer\\MediaPlayer.csproj|c:\\dev\\remote\\honeywell\\honeywell19\\mediaplayer\\mediaplayer\\controllers\\postcapturecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9468F188-F53A-4E85-BDBF-8041DD1883BE}|MediaPlayer\\MediaPlayer.csproj|solutionrelative:mediaplayer\\controllers\\postcapturecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9468F188-F53A-4E85-BDBF-8041DD1883BE}|MediaPlayer\\MediaPlayer.csproj|c:\\dev\\remote\\honeywell\\honeywell19\\mediaplayer\\mediaplayer\\appgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9468F188-F53A-4E85-BDBF-8041DD1883BE}|MediaPlayer\\MediaPlayer.csproj|solutionrelative:mediaplayer\\appgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{ecb7191a-597b-41f5-9843-03a4cf275dde}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{ca8cc5c7-0231-406a-95cd-aa5ed6ac0190}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Dev\\Remote\\Honeywell\\Honeywell19\\MediaPlayer\\MediaPlayer\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MediaPlayer\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Dev\\Remote\\Honeywell\\Honeywell19\\MediaPlayer\\MediaPlayer\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MediaPlayer\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAIwCQAAAB2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-22T04:05:16.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PostCaptureController.cs",
+              "DocumentMoniker": "C:\\Dev\\Remote\\Honeywell\\Honeywell19\\MediaPlayer\\MediaPlayer\\Controllers\\PostCaptureController.cs",
+              "RelativeDocumentMoniker": "MediaPlayer\\Controllers\\PostCaptureController.cs",
+              "ToolTip": "C:\\Dev\\Remote\\Honeywell\\Honeywell19\\MediaPlayer\\MediaPlayer\\Controllers\\PostCaptureController.cs",
+              "RelativeToolTip": "MediaPlayer\\Controllers\\PostCaptureController.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAIwH0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T07:20:18.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppGenerator.cs",
+              "DocumentMoniker": "C:\\Dev\\Remote\\Honeywell\\Honeywell19\\MediaPlayer\\MediaPlayer\\AppGenerator.cs",
+              "RelativeDocumentMoniker": "MediaPlayer\\AppGenerator.cs",
+              "ToolTip": "C:\\Dev\\Remote\\Honeywell\\Honeywell19\\MediaPlayer\\MediaPlayer\\AppGenerator.cs",
+              "RelativeToolTip": "MediaPlayer\\AppGenerator.cs",
+              "ViewState": "AgIAAIoBAAAAAAAAAAAIwKABAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T06:36:19.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Dev\\Remote\\Honeywell\\Honeywell19\\MediaPlayer\\MediaPlayer\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MediaPlayer\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Dev\\Remote\\Honeywell\\Honeywell19\\MediaPlayer\\MediaPlayer\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MediaPlayer\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAKIAAAAAAAAAAADwv7EAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T05:10:20.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Dev\\Remote\\Honeywell\\Honeywell19\\MediaPlayer\\MediaPlayer\\Views\\RecentMovie\\Index.cshtml",
+              "RelativeDocumentMoniker": "MediaPlayer\\Views\\RecentMovie\\Index.cshtml",
+              "ToolTip": "C:\\Dev\\Remote\\Honeywell\\Honeywell19\\MediaPlayer\\MediaPlayer\\Views\\RecentMovie\\Index.cshtml",
+              "RelativeToolTip": "MediaPlayer\\Views\\RecentMovie\\Index.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T05:02:20.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RecentMovieController.cs",
+              "DocumentMoniker": "C:\\Dev\\Remote\\Honeywell\\Honeywell19\\MediaPlayer\\MediaPlayer\\Controllers\\RecentMovieController.cs",
+              "RelativeDocumentMoniker": "MediaPlayer\\Controllers\\RecentMovieController.cs",
+              "ToolTip": "C:\\Dev\\Remote\\Honeywell\\Honeywell19\\MediaPlayer\\MediaPlayer\\Controllers\\RecentMovieController.cs",
+              "RelativeToolTip": "MediaPlayer\\Controllers\\RecentMovieController.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAADwv0kAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T05:01:24.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CatalogueController.cs",
+              "DocumentMoniker": "C:\\Dev\\Remote\\Honeywell\\Honeywell19\\MediaPlayer\\MediaPlayer\\Controllers\\CatalogueController.cs",
+              "RelativeDocumentMoniker": "MediaPlayer\\Controllers\\CatalogueController.cs",
+              "ToolTip": "C:\\Dev\\Remote\\Honeywell\\Honeywell19\\MediaPlayer\\MediaPlayer\\Controllers\\CatalogueController.cs",
+              "RelativeToolTip": "MediaPlayer\\Controllers\\CatalogueController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAIwFcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T04:06:35.42Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d3750d8a-574b-4fb3-b7e2-aa8af40e8231}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+﻿@model RecentMovieModel
+@{
+    ViewData["Title"] = "Recent Movie";
+}
+@Html.AntiForgeryToken()
+<div class="d-flex flex-column min-vh-100 min-vw-100 bg-black">
+    <main>
+        <form id="administrator" method="post" asp-controller="PostCapture" asp-action="Post" enctype="multipart/form-data">
+            <div class="w-100 h-80 bg-black">
+                @if (Model.PlayVideo && (Model.Movie != null) &&
+                    !string.IsNullOrEmpty(Model.Movie.Title) && 
+                    !string.IsNullOrEmpty(Model.Movie.ContentType))
+                {
+                    <video id="VideoPlayer" controls autoplay width="600" height="450" crossorigin="anonymous">
+                        <source src="~/videos//@Url.Content(Model.Movie.Title)" type="@Model.Movie.ContentType" />
+                    </video>
+                }
+                else if (!Model.PlayVideo && Model.Selection.Count > 0)
+                {
+                    <table id="preview-table" class="table table-bordered table-striped table-dark table-responsive table-group-divider">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th>FileName</th>
+                                <th>Size (in bytes)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var entry in Model.Selection)
+                            {
+                                <tr onclick="displayMovie(this)" style="cursor:grab">
+                                    <td>@entry.Title</td>
+                                    <td>@entry.ContentLength.ToString()</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                }
+                <button id="submission" type="submit" style="display:none;">Submit</button>
+            </div>
+        </form>
+    </main>
+</div>
+<script type="text/javascript">
+    const player = document.getElementById("VideoPlayer");
+    if (player !== null) {
+        try {
+            player.onended = function (e) {
+               // clear the video player buffer
+               player.source = '';
+               player.currentTime = 0;
+               player.load();
+                // return back to the index page
+                @Model.Visitor?.IsContentAppearing = false;
+                location.href = '@Url.Content("~/Home/Index")';
+            };
+        } catch {
+            // return back to the index page
+            @Model.Visitor?.IsContentAppearing = false;
+            location.href = '@Url.Content("~/Home/Index")';
+        }
+    }
+    function displayMovie(tr) {
+        const button = document.getElementById('submission');
+        if (button !== null) {
+            const hidden = document.createElement('input');
+            hidden.type = 'hidden';
+            hidden.name = 'movie-preview';
+            hidden.id = 'movie-preview';
+            hidden.value = '';
+            if (tr !== null && tr.cells !== null && tr.cells.length === 2) {
+                hidden.value = tr.cells[0].textContent;
+            }
+            if (hidden.value.length > 0) {
+                button.append(hidden);
+                button.click();
+            }
+        }
+    }
+</script>

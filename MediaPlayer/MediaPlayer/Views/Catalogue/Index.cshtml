@@ -1,0 +1,51 @@
+﻿@model MediaPlayer.Models.CatalogueViewModel
+@using MediaPlayer.Data.Factory.Abstraction;
+@using MediaPlayer.Data.Factory;
+@{
+    ViewData["Title"] = "MediaPlayer";
+}
+@Html.AntiForgeryToken()
+<div class="d-flex flex-column min-vh-100 min-vw-100 bg-black">
+    <main>
+        <div>
+            <span class="bg-primary-subtle text-black introduction">You may select any movie from the recently viewed list</span>
+        </div>
+        <div style="gap: 20px"><br /></div>
+        <form id="movie-form" role="form" method="post" enctype="multipart/form-data">
+            <table class="table table-bordered table-striped table-dark table-responsive table-group-divider" role="table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>Visitor ID</th>
+                        <th>FileName</th>
+                        <th>Size (in bytes)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var preview in Model.Movies)
+                    {
+                        var visitor = preview.Visitor;
+                        var token = (visitor == null) ? "" : visitor.Token.ToString();
+                        var title = preview.Title;
+                        var filename = preview.FileName;
+                        <tr onclick="displayMovie(this)" style="cursor:grab">
+                            <td>@token</td>
+                            <td>@title</td>
+                            <td>@preview.ContentLength.ToString()</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </form>
+    </main>
+</div>
+<script type="text/javascript">
+    function displayMovie(tr) {
+        const form = document.getElementById('movie-form');
+        const hidden = document.createElement('input');
+        hidden.type = 'hidden';
+        hidden.name = 'preview';
+        hidden.value = tr.cells[1].textContent;
+        form.append(hidden);
+        form.submit();
+    }
+</script>
